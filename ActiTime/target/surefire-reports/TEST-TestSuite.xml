@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="1" name="TestSuite" time="0.957" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\bin"/>
+    <property name="java.vm.version" value="25.66-b18"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mustfa\neon-workspace\ActiTime"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mustfa\neon-workspace\ActiTime"/>
+    <property name="java.runtime.version" value="1.8.0_66-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mustfa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\mustfa\neon-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4660717321465823944.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_45\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Apache\apache-maven-3.3.9\bin;C:\Program Files\Git\cmd;C:\Users\mustfa\AppData\Local\Android\sdk1;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Skype\Phone\;C:\Users\mustfa\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\mustfa"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mustfa"/>
+    <property name="java.class.path" value="/C:/Users/mustfa/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_66\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\mustfa\neon-workspace\ActiTime\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.selenium.ActiTime.AllocateWorkTest" name="f" time="0.023"/>
+  <testcase classname="org.selenium.ActiTime.CreateUserTest" name="testSetUp" time="0.934">
+    <failure message="org/loggers/utils/LogStarter" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/loggers/utils/LogStarter
+	at org.selenium.businesslib.CommonLib.login(CommonLib.java:33)
+	at org.selenium.ActiTime.CreateUserTest.testSetUp(CreateUserTest.java:44)
+Caused by: java.lang.ClassNotFoundException: org.loggers.utils.LogStarter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 38 more
+</failure>
+    <system-out>Test Execution Started
+405 [main] DEBUG org.selenium.ActiTime.CreateUserTest  - Test Execution Started
+408 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+408 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+410 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+410 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 1][route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+411 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Opening connection {}-&gt;http://127.0.0.1:7055
+411 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to /127.0.0.1:7055
+412 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 127.0.0.1:1959&lt;-&gt;127.0.0.1:7055
+414 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-1: set socket timeout to 10800000
+415 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Executing request POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/url HTTP/1.1
+415 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+415 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+420 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/url HTTP/1.1
+421 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; Content-Type: application/json; charset=utf-8
+424 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; Content-Length: 35
+424 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; Host: 127.0.0.1:7055
+424 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; Connection: Keep-Alive
+425 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+426 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &gt;&gt; Accept-Encoding: gzip,deflate
+426 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/url HTTP/1.1[\r][\n]&quot;
+428 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+428 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;Content-Length: 35[\r][\n]&quot;
+428 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;Host: 127.0.0.1:7055[\r][\n]&quot;
+429 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+429 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]&quot;
+430 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+430 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;
+431 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &gt;&gt; &quot;{&quot;url&quot;:&quot;http://localhost/login.do&quot;}&quot;
+1128 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+1129 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;content-type: application/json; charset=UTF-8[\r][\n]&quot;
+1129 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;connection: close[\r][\n]&quot;
+1129 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;content-length: 87[\r][\n]&quot;
+1130 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;server: httpd.js[\r][\n]&quot;
+1130 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;date: Sun, 19 Feb 2017 17:44:23 GMT[\r][\n]&quot;
+1130 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;
+1133 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK
+1133 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; content-type: application/json; charset=UTF-8
+1134 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; connection: close
+1134 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; content-length: 87
+1134 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; server: httpd.js
+1135 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-1 &lt;&lt; date: Sun, 19 Feb 2017 17:44:23 GMT
+1135 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-1 &lt;&lt; &quot;{&quot;name&quot;:&quot;get&quot;,&quot;sessionId&quot;:&quot;1cba3044-ddb9-4900-a102-97a7598eab14&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}&quot;
+1136 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-1: Close connection
+1136 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+1139 [Forwarding get on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 1][route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+1146 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+1147 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+1148 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+1148 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 2][route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+1148 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Opening connection {}-&gt;http://127.0.0.1:7055
+1149 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to /127.0.0.1:7055
+1150 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 127.0.0.1:1968&lt;-&gt;127.0.0.1:7055
+1151 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-2: set socket timeout to 10800000
+1151 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Executing request POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/window/current/maximize HTTP/1.1
+1152 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+1152 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+1153 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/window/current/maximize HTTP/1.1
+1156 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; Content-Type: application/json; charset=utf-8
+1157 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; Content-Length: 26
+1157 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; Host: 127.0.0.1:7055
+1158 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; Connection: Keep-Alive
+1158 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)
+1158 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &gt;&gt; Accept-Encoding: gzip,deflate
+1159 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;POST /hub/session/1cba3044-ddb9-4900-a102-97a7598eab14/window/current/maximize HTTP/1.1[\r][\n]&quot;
+1159 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+1159 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;Content-Length: 26[\r][\n]&quot;
+1160 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;Host: 127.0.0.1:7055[\r][\n]&quot;
+1160 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+1160 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_66)[\r][\n]&quot;
+1161 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+1161 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;[\r][\n]&quot;
+1161 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &gt;&gt; &quot;{&quot;windowHandle&quot;:&quot;current&quot;}&quot;
+1270 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+1271 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;content-type: application/json; charset=UTF-8[\r][\n]&quot;
+1273 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;connection: close[\r][\n]&quot;
+1274 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;content-length: 98[\r][\n]&quot;
+1274 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;server: httpd.js[\r][\n]&quot;
+1275 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;date: Sun, 19 Feb 2017 17:44:23 GMT[\r][\n]&quot;
+1275 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;[\r][\n]&quot;
+1275 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; HTTP/1.1 200 OK
+1276 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; content-type: application/json; charset=UTF-8
+1276 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; connection: close
+1276 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; content-length: 98
+1277 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; server: httpd.js
+1277 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.headers  - http-outgoing-2 &lt;&lt; date: Sun, 19 Feb 2017 17:44:23 GMT
+1286 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.wire  - http-outgoing-2 &lt;&lt; &quot;{&quot;name&quot;:&quot;maximizeWindow&quot;,&quot;sessionId&quot;:&quot;1cba3044-ddb9-4900-a102-97a7598eab14&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;&quot;}&quot;
+1287 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-2: Close connection
+1288 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.execchain.MainClientExec  - Connection discarded
+1288 [Forwarding maximizeWindow on session 1cba3044-ddb9-4900-a102-97a7598eab14 to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 2][route: {}-&gt;http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+Browser Launched
+</system-out>
+  </testcase>
+  <testcase classname="org.selenium.ActiTime.CreateUserTest" name="userTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="org.selenium.ActiTime.CreateUserTest" name="AfterProjectTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
