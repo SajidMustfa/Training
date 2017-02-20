@@ -37,6 +37,8 @@ public class CommonLib {
 		loginpage.getpwdField().sendKeys(password);
 		logger.debug("Enter user credential");
 		loginpage.getloginBtn().click();
+		
+		
 		logger.debug("User logs in");
 		
 	}
